@@ -3,8 +3,8 @@
     <div class="left">
       <slot name="left"></slot>
     </div>
-    <div class="conter">
-      <slot name="conter"></slot>
+    <div class="center">
+      <slot name="center"></slot>
     </div>
     <div class="right">
       <slot name="right"></slot>
@@ -32,7 +32,7 @@ export default {
   width: 60px;
 }
 
-.conter {
+.center {
   /* 占据中间所有部分  同一个大盒子里面 其余的小盒子都有具体的大小 这里用flex：1 就会让他占据其余的剩余部分 */
   flex: 1;
 }
